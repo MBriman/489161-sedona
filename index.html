@@ -2,11 +2,104 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title></title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="citeofsedona.png" width="135" height="70" alt="city of sedona">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="foto_video.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+    	<section class="intro">
+      		<p class="visually-hidden">Welcome to the gorgeous</p>
+      		<p class="visually-hidden">Sedona</p>
+      		<p class="visually-hidden">"Because the Grand Canyon sucks!"</p>
+    	</section>
+      <section class="advantages">
+      	<h1>Седона-небольшой городок в Аризоне, заслуживающий большего!</h1>
+    	<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <h3>Настоящий городок</h3>
+            <p>№1</p>
+            <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Жилье</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Сувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Там есть мост дьявола</h3>
+            <p>№2</p>
+            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Небольшая площадь</h3>
+            <p>№3</p>
+            <p>Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Красивая дорога</h3>
+            <p>№4</p>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Мало туристов</h3>
+            <p>№5</p>
+            <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+        </ul>
+      </section>
+      <h1>Заинтересовались?</h1>
+      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    </main>
+  	<section class="hotel search">
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <a class="search" href="#">Поиск гостиницы в Седоне</a>
+        <p>
+          <label>Дата заезда: <input class="coming" type="coming" name="coming" placeholder="24 апреля 2017"></label>
+        </p>
+        <p>
+          <label>Дата выезда: <input class="exit" type="exit" name="exit" placeholder="4 июля 2017"></label>
+        </p>
+        <p>
+          <label>Взрослые <input class="adults" type="adults" name="adults" placeholder="2"></label>
+          <label>Дети <input class="children" type="children" name="children" placeholder="0"></label>
+        </p>
+        <a class="find" href="#">Найти</a>
+    </section>
+    <footer class="main-footer">
+    	<section class="hashtag">
+    		<b>#VISITSEDONA</b>
+    	</section>
+    	<section class="social-button">
+    	<ul>
+          <li><a class="social-button" href="#">Твиттер</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Ютуб</a></li>
+        </ul>
+        </section>
+        <section class="footer-copyright">
+        	<p>Website by html academy</p>
+        	<img src="http://placehold.it/150x100" alt="html academy">
+      	</section>
+    </footer>
   </body>
 </html>
