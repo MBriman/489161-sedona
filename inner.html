@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Hotels</title>
   </head>
   <body>
     <header class="main-header">
@@ -20,47 +20,47 @@
     </header>
     <main class="container">
     <fieldset>
-            <legend>Инфраструктура</legend>
-            <ul>
-              <li class="pool">
-                <label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="pool" checked>
-                Бассейн</label>
-              </li>
-              <li class="parking place">
-                <label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="parking place">
-                Парковка</label>
-              </li>
-              <li class="wi-fi">
-                <label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="wi-fi">
-                WI-FI</label>
-              </li>
-            </ul>
+      <legend>Инфраструктура</legend>
+      <ul>
+        <li class="pool">
+          <label><input class="pool" type="checkbox" name="pool" checked>
+          Бассейн</label>
+        </li>
+        <li class="parking place">
+          <label><input class="parking place" type="checkbox" name="parking place">
+          Парковка</label>
+        </li>
+        <li class="wi-fi">
+          <label><input class="wi-fi" type="checkbox" name="wi-fi">
+          WI-FI</label>
+        </li>
+      </ul>
     </fieldset>
     <fieldset>
-            <legend>Тип жилья</legend>
-            <ul>
-              <li class="filter-option">
-                <label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" checked>
-                Гостиница</label>
-              </li>
-              <li class="filter-option">
-                <label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty" checked>
-                Мотель</label>
-              </li>
-              <li class="filter-option">
-                <label><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" checked>
-                Апартаменты</label>
-              </li>
-            </ul>
+      <legend>Тип жилья</legend>
+      <ul>
+        <li class="filter-option">
+          <label><input class="hotel" type="checkbox" name="hotel" checked>
+          Гостиница</label>
+        </li>
+        <li class="filter-option">
+          <label><input class="motel" type="checkbox" name="motel" checked>
+          Мотель</label>
+        </li>
+        <li class="filter-option">
+          <label><input class="apartments" type="checkbox" name="apartments" checked>
+          Апартаменты</label>
+        </li>
+      </ul>
     </fieldset>
-    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <form class="value-form" action="https://echo.htmlacademy.ru" method="post">
         <p>Стоимость в сутки (Р):</p>
-        <p>
-          <input class="login-icon-password" type="password" name="password" placeholder="От 0 до 3000">
+          <input class="borders" type="borders" name="borders" placeholder="От 0 до 3000">
         </p>
-        <button type="submit" class="Show">Показать</button>
+          <input class="slider" type="range" name="slider">
+        </p>
+      <button type="submit" class="Show">Показать</button>
       </form>
-
     <section class="sort">
       <h1>Найдено: 3</h1>
       <p>Сортировка:</p>
@@ -70,10 +70,22 @@
         <li>По рейтингу</li>
       </ul>
     </section>
-
-
-
-
+    <section class="selection">
+      <ul>
+        <a href="#"><li class="amara">Amara Resort & Spa</li></a>
+        <p>Гостиница от 4000 Р.</p>
+        <button class="read more amara">Подробнее</a>
+        <button class="reservation amara">Забронировать</button>
+        <a href="#"><li class="desert">Desert Quail Inn</li></a>
+        <p>Мотель от 3000 Р.</p>
+        <button class="read more desert">Подробнее</a>
+        <button class="reservation desert">Забронировать</button>
+        <a href="#"><li class="villas">Villas at Poco Diablo</li></a>
+        <p>Апартаменты от 2000 Р.</p>
+        <button class="read more villas">Подробнее</a>
+        <button class="reservation villas">Забронировать</button>
+      </ul>
+    </section>
     </main>
     <footer class="main-footer">
       <section class="hashtag">
@@ -81,15 +93,15 @@
       </section>
       <section class="social-button">
       <ul>
-          <li><a class="social-button" href="#">Твиттер</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Ютуб</a></li>
-        </ul>
-        </section>
-        <section class="footer-copyright">
-          <p>Website by html academy</p>
-          <img src="http://placehold.it/150x100" alt="html academy">
-        </section>
+        <li><a class="social-button" href="#">Твиттер</a></li>
+        <li><a class="social-button" href="#">Фейсбук</a></li>
+        <li><a class="social-button" href="#">Ютуб</a></li>
+      </ul>
+      </section>
+      <section class="footer-copyright">
+        <p>Website by</p>
+        <a href="https://htmlacademy.ru/"><img src="http://placehold.it/150x100" alt="html academy"></a>
+      </section>
     </footer>
   </body>
 </html>
