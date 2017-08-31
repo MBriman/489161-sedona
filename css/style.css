@@ -1,20 +1,71 @@
 body {
-	font-family: "PT Sans", "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: "ptsans", "Arial", sans-serif;
+	text-transform: uppercase;
+	width: 1202px;
+
 }
 
+@font-face {
+    font-family: "ptsans"; 
+    src: url("fonts/ptsans.woff") format("woff"),
+	url("fonts/ptsans.woff2") format("woff2");
+    font-weight: normal;
+  	font-style: normal; 
+   }
+
+@font-face {
+    font-family: "ptsans"; 
+    src: url("fonts/ptsansbold.woff") format("woff"),
+    url("fonts/ptsansbold.woff2") format("woff2");
+    font-weight: bold;
+  	font-style: normal; 
+}
+
+.intro {
+ 	height: 508px;
+ 	width: 1200px;
+	background-color: #ffffff;
+ 	background-image: url("../img/background.jpg");
+ 	background-position: top center;
+  	background-repeat: no-repeat;
+}
+
+.value-form {
+	background-color: #ffffff;
+ 	background-image: url("../img/hotelsbg.jpg");
+ 	background-position: top center;
+  	background-repeat: no-repeat;
+}
 
 .site-navigation {
 	font-size: 14px;
 	line-height: 26px;
-	color: #000000;
 	font-weight: bold;
+	list-style: none;
+	background-color: #ffffff;
 }
 
-.causes {
-	font-size: 14px;
-	line-height: 26px;
-	color: #7d7d7d;
-	font-weight: normal;
+.site-navigation li {
+	color: #766357;
+}
+
+.site-navigation a {
+	color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  	color: #81b3d2;
+}
+
+.site-navigation a:active {
+	color: #cacaca;
+}
+
+.advantages ul {
+	list-style: none;
 }
 
 .advantages h1 {
@@ -31,37 +82,291 @@ body {
 	font-weight: normal;
 }
 
+.causes {
+	font-size: 14px;
+	line-height: 26px;
+	color: #7d7d7d;
+	font-weight: normal;
+}
 
-.infrastructure {
-	font-size: 16px;
+.advantages h3 {
+	font-size: 21px;
 	line-height: 21px;
-	color: #ffffff;
+	color: #000000;
 	font-weight: bold;
 }
 
-.name_of_hotels {
+.principal {
+	height: 256px;
+ 	width: 402px;
+ 	background-color: #81b3d2;
+
+}
+
+.principal h3 {
+	color: #ffffff;
+}
+
+.principal p {
+	color: #ffffff;
+}
+
+.indicate h1 {
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.indicate p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #b3b3b3;
+	font-weight: normal;
+}
+
+.find {
+	font-size: 21px;
+	line-height: 26px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #766357;
+	text-align: center;
+	width: 569px;
+	height: 87px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.value-form {
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.value-form fieldset {
+	border: none;
+}
+
+.value-form ul {
+	list-style: none;
+}
+
+legend {
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+.show{
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.selections h1 {
 	font-size: 21px;
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
 }
 
-.total {
+.selections p {
 	font-size: 14px;
 	line-height: 21px;
-	color: #d5d5d5;
+	color: #000000;
 	font-weight: normal;
 }
+
+.selections a {
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.more {
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #81b3d2;
+}
+
+.reservation {
+	color: #ffffff;
+	background-color: #766357;
+}
+
 .up {
-	color: #cdcdcd;
+	color: #cacaca;
+}
+
+.up:hover,
+.up:focus {
+  	color: #272324;
+}
+
+.up:active {
+	color: #88b7d4;
 }
 
 .down {
-	color: #83b4d3;
+	color: #cacaca;
+}
+
+.down:hover,
+.down:focus {
+  	color: #272324;
+}
+
+.down:active {
+	color: #88b7d4;
 }
 
 .stars {
 	display: flex;
 	color: #81b3d2;
 	list-style: none;
+}
+
+.hashtag {
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.footer-copyright p {
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.social-button ul {
+	list-style: none;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.sort a {
+	color: #81b3d2;
+}
+
+.sort li:hover,
+.sort li:focus {
+  	color: #81b3d2;
+}
+
+.sort li:active {
+	color: #000000;
+}
+
+.pick h1:hover,
+.pick h1:focus {
+  	color: #81b3d2;
+}
+
+.pick h1:active {
+	color: #d2d2d2;
+}
+
+.more:hover,
+.more:focus {
+  	background-color: #669ec0;
+}
+
+.more:active {
+	background-color: #5496bd;
+	color: #91b7d1;
+}
+
+.reservation:hover,
+.reservation:focus {
+  	background-color: #604e43;
+}
+
+.reservation:active {
+	background-color: #503e33;
+	color: #928a85;
+}
+
+.find:hover,
+.find:focus {
+  	background-color: #604e43;
+}
+
+.find:active {
+	background-color: #503e33;
+	color: #928a85;
+}
+
+.hotelsearch {
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+}
+
+input[placeholder] {
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	text-transform: uppercase;
+}
+
+input[placeholder]:hover,
+input[placeholder]:focus {
+  	background-color: #ebebeb;
+}
+
+input[placeholder]:active {
+	background-color: #ffffff;
+	color: #928a85;
+}
+
+.seek {
+	color: #ffffff;
+	background-color: #81b3d2;
+	width: 460px;
+	height: 60px;
+	font-size: 21px;
+	line-height: 26px;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.seek:hover,
+.seek:focus {
+  	background-color: #669ec0;
+}
+
+.seek:active {
+	background-color: #5496bd;
+	color: #94b9d2;
+}
+
+.social-button-twitter {
+	background-color: #81b3d2;
+}
+
+.footer-copyright a {
+	display: block;
+}
+
+.principal li {
+	margin-left: 402px;
+	margin-right: 0px;
 }
