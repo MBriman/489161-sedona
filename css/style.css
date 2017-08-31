@@ -3,8 +3,6 @@ body {
 	padding: 0;
 	font-family: "ptsans", "Arial", sans-serif;
 	text-transform: uppercase;
-	width: 1202px;
-
 }
 
 @font-face {
@@ -96,19 +94,12 @@ body {
 	font-weight: bold;
 }
 
-.principal {
-	height: 256px;
- 	width: 402px;
- 	background-color: #81b3d2;
-
-}
-
 .principal h3 {
-	color: #ffffff;
+	color: #000000;
 }
 
 .principal p {
-	color: #ffffff;
+	color: #7d7d7d;
 }
 
 .indicate h1 {
@@ -131,11 +122,8 @@ body {
 	color: #ffffff;
 	font-weight: bold;
 	background-color: #766357;
-	text-align: center;
 	width: 569px;
 	height: 87px;
-	margin-left: auto;
-    margin-right: auto;
 }
 
 .value-form {
@@ -366,7 +354,3 @@ input[placeholder]:active {
 	display: block;
 }
 
-.principal li {
-	margin-left: 402px;
-	margin-right: 0px;
-}
