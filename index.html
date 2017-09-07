@@ -3,21 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>Sedona</title>
+  <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link href="normalize.css" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <a class="main-header-logo">
-        <img src="img/logo.png" width="140" height="70" alt="city of sedona">
-      </a>
+    <div class="main-navigation-wrapper">
+      <div class="container">
       <ul class="site-navigation">
-        <li><a href="info.html">Информация</a></li>
-        <li><a href="foto_video.html">Фото и видео</a></li>
-        <li><a href="map.html">Карта штата</a></li>
-        <li><a href="hotels.html">Гостиницы</a></li>
+        <li class="list"><a href="info.html">Информация</a></li>
+        <li class="list"><a href="foto_video.html">Фото и видео</a></li>
+        <li><a><img src="img/logo.png" width="138" height="70" alt="city of sedona"></a></li>
+        <li class="list"><a href="map.html">Карта штата</a></li>
+        <li class="list"><a href="hotels.html">Гостиницы</a></li>
       </ul>
+      </div>
+    </div>
     </nav>
   </header>
   <main class="container">
@@ -27,14 +29,15 @@
     <p class="visually-hidden">"Because the Grand Canyon sucks!"</p>
   </section>
   <section class="advantages">
-    <h1>Седона-небольшой городок в Аризоне, заслуживающий большего!</h1>
+    <h1>Седона-небольшой городок в Аризоне,<br> заслуживающий большего!</h1>
     <p class="causes">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
     <ul class="principal">
-      <li>
-        <img src="img/town.jpg" width="800" height="258" alt="town">
-        <h3>Настоящий городок</h3>
-        <p>№1</p>
-        <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+      <li class="seriosly">
+        <h3>Настоящий <br> городок</h3>
+        <p>— №1 —</p>
+        <p>Седона - не аттракцион для туристов,<br> там течет своя жизнь</p>
+      </li>
+      <li><img src="img/town.jpg" width="800" height="256" alt="town">
       </li>
     </ul>
     <ul class="services">
@@ -52,36 +55,40 @@
       </li>
     </ul>
     <ul class="privilege">
-      <li>
-        <img src="img/mountain.jpg" width="802" height="255" alt="bridge">
+      <li><img class="mount" src="img/mountain.jpg" width="800" height="256" alt="bridge">
+      </li>
+      <li class="diablo">
         <h3>Там есть мост дьявола</h3>
-        <p>№2</p>
+        <p>— №2 —</p>
         <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
       </li>
+    </ul>
+    <ul class="reason">
       <li>
         <h3>Небольшая площадь</h3>
-        <p>№3</p>
+        <p>— №3 —</p>
         <p>Все достопримечательности находятся очень близко</p>
       </li>
       <li>
         <h3>Красивая дорога</h3>
-        <p>№4</p>
+        <p>— №4 —</p>
         <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
       </li>
       <li>
         <h3>Мало туристов</h3>
-        <p>№5</p>
+        <p>— №5 —</p>
         <p>Большинство едет в Гранд Каньон и толпится там</p>
       </li>
     </ul>
   </section>
   <section class="indicate">
     <h1>Заинтересовались?</h1>
-    <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    <a href="#"><p class="find">Поиск гостиницы в Седоне</p></a>
   </section>
-  <a href="#"><p class="find">Поиск гостиницы в Седоне</p></a>
-  <img src="img/map.jpg" alt="town">
   <section class="hotelsearch">
+  <div class="form-wrapper">
+    <img src="img/map.jpg" width="1200" height="473" alt="town">
     <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
       <p class="visually-hidden">Поиск гостиницы в Седоне</p>
       <p>
@@ -96,15 +103,17 @@
       </p>
       <button class="seek">Найти</button>
     </form>
+    </div>
   </section>
 </main>
 <footer class="main-footer">
- <section class="hashtag">
+<div class="container">
+<section class="hashtag">
   <b>#VISITSEDONA</b>
 </section>
 <section class="social-button">
   <ul>
-    <li><a class="social-button-twitter" href="#"><img src="../img/twitter.svg" width="49" height="48">Твиттер</a></li>
+    <li><a class="social-button-twitter" href="#">Твиттер</a></li>
     <li><a class="social-button-facebook" href="#">Фейсбук</a></li>
     <li><a class="social-button-youtube" href="#">Ютуб</a></li>
   </ul>
@@ -113,6 +122,7 @@
  <p>Website by</p>
  <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="120" height="50" alt="html academy"></a>
 </section>
+</div>
 </footer>
 </body>
 </html>

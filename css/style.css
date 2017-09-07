@@ -1,4 +1,4 @@
-body {
+body  {
 	margin: 0;
 	padding: 0;
 	font-family: "PT Sans", "Arial", sans-serif;
@@ -7,30 +7,33 @@ body {
 
 @font-face {
     font-family: "PT Sans"; 
-    src: url("fonts/ptsans.woff") format("woff"),
-	url("fonts/ptsans.woff2") format("woff2");
+    src: url("../fonts/ptsans.woff") format("woff"),
+	url("../fonts/ptsans.woff2") format("woff2");
     font-weight: normal;
   	font-style: normal; 
    }
 
 @font-face {
     font-family: "PT Sans"; 
-    src: url("fonts/ptsansbold.woff") format("woff"),
-    url("fonts/ptsansbold.woff2") format("woff2");
+    src: url("../fonts/ptsansbold.woff") format("woff"),
+    url("../fonts/ptsansbold.woff2") format("woff2");
     font-weight: bold;
   	font-style: normal; 
 }
 
 .intro {
- 	height: 508px;
- 	width: 1200px;
+	height: 574px;
+ 	width: 100%;
  	background-image: url("../img/background.jpg");
- 	background-position: top center;
+ 	background-position: center;
   	background-repeat: no-repeat;
+
+
 }
 
 .value-form {
-	background-color: #ffffff;
+	height: 217px;
+ 	width: 100%;
  	background-image: url("../img/hotelsbg.jpg");
  	background-position: top center;
   	background-repeat: no-repeat;
@@ -113,9 +116,10 @@ body {
 	line-height: 24px;
 	color: #b3b3b3;
 	font-weight: normal;
+	text-align: center;
 }
 
-.find {
+.indicate .find {
 	font-size: 21px;
 	line-height: 26px;
 	color: #ffffff;
@@ -123,12 +127,14 @@ body {
 	background-color: #766357;
 	width: 569px;
 	height: 87px;
+	text-align: center;
+	margin-bottom: 0;
 }
 
 .value-form {
 	font-size: 14px;
 	line-height: 21px;
-	color: #000000;
+	color: #ffffff;
 	font-weight: normal;
 }
 
@@ -143,7 +149,7 @@ body {
 legend {
 	font-size: 16px;
 	line-height: 21px;
-	color: #000000;
+	color: #ffffff;
 	font-weight: bold;
 }
 
@@ -176,6 +182,27 @@ a {
 	line-height: 21px;
 	color: #ffffff;
 	font-weight: bold;
+}
+
+.sort h1 {
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.sort p {
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	font-weight: normal;
+}
+
+.sort li {
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	font-weight: normal;
 }
 
 .more {
@@ -345,11 +372,257 @@ input[placeholder]:active {
 	color: #94b9d2;
 }
 
-.social-button-twitter {
-	background-color: #81b3d2;
-}
-
 .footer-copyright a {
 	display: block;
 }
 
+/* Сеточные стили */
+.main-header {
+  	min-width: 1200px;
+  	min-height: 56px;
+}
+
+.main-navigation {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+.site-navigation {
+	width: 1200px;
+	height: 56px;
+	margin: 0;
+	padding: 0; 
+	list-style: none;
+	display: flex;
+}
+
+.main-navigation-wrapper {
+	width: 100%;
+}
+
+.container {
+  	width: 1200px;
+  	margin: 0 auto;
+}
+
+.main-navigation-wrapper .container {
+  	display: flex;
+}
+
+.container li {
+	width: 20%;
+	text-align: center;
+}
+
+.list {
+	align-self: center;
+}
+/* Конец шапки */
+
+/* Intro */
+.intro {
+	width: 100%;
+}
+
+.advantages {
+	text-align: center;
+	margin-top: -17px;
+}
+
+.principal {
+	width: 1200px;
+	height: 256px;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.principal .seriosly {
+	width: 400px;
+	height: 256px;
+	background-color: #81b3d2;
+}
+
+.seriosly h3 {
+	color: #ffffff;
+}
+
+.seriosly p {
+	color: #ffffff;
+}
+
+.services {
+	margin-top: 0;
+}
+.services li {
+	width: 400px;
+	align-self: center;
+}
+
+.advantages .services {
+	height: 256px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.privilege {
+	width: 1200px;
+	height: 256px;
+	display: flex;
+	margin-top: -15px;
+	padding: 0;
+	justify-content: space-between;
+}
+
+.privilege .diablo {
+	width: 400px;
+	height: 256px;
+	background-color: #81b3d2;
+}
+
+.diablo h3 {
+	color: #ffffff;
+}
+
+.diablo p {
+	color: #ffffff;
+} 
+
+.privilege li {
+	align-self: center;
+}
+
+.mount {
+	display: block;
+}
+
+.reason {
+	background-color: #eeeeee;
+	margin-top: -16px;
+}
+
+.reason li {
+	width: 400px;
+	align-self: center;
+}
+
+.advantages .reason {
+	height: 256px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.indicate {
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+  	margin-top: -15px;
+}
+
+.login-form {
+	position: absolute;
+	background-color: #ffffff;
+	width: 576px;
+	height: 396px;
+	left: 50%;
+	margin-left: -288px;
+}
+
+.hashtag {
+	width: 400px;
+	margin: 0;
+	text-align: center;
+	align-self: center;
+}
+
+.social-button {
+	width: 400px;
+}
+
+.footer-copyright {
+	width: 400px;
+	margin: 0;
+	text-align: center;
+	align-self: center;
+}
+
+.main-footer .container {
+  display: flex;
+}
+
+.form-wrapper {
+	display: flex;
+}
+
+/* Главная */
+
+/* Иннер */
+
+
+.value-form {
+	display: flex;
+}
+
+.structure {
+	width: 241px;
+	height: 153px;
+	margin-left: 73px;
+	margin-top: 31px;
+}
+
+
+.sort {
+	width: 1056px;
+	height: 86px;
+	margin: 0 auto;
+}
+
+.crosshead {
+	display: flex;
+	justify-content: space-between;
+}
+
+.crosshead h1 {
+	width: 150px;
+	margin-right: 50px;
+}
+
+.crosshead p {
+	width: 101px;
+	margin-top: 30px;
+}
+
+.sorting {
+	width: 781px;
+	margin-top: 27px;
+}
+
+.sorting li {
+	display: inline;
+	padding: 33px;
+}
+
+.container-form {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* Гостиницы */
+
+.pick {
+	display: flex;
+}
+
+.pick img {
+	margin-top: 30px;
+}
+
+.hot {
+	width: 922px;
+	margin-left: 30px;
+}
+
+.rating {
+	width: 112px;
+}
