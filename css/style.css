@@ -22,10 +22,10 @@ body  {
 }
 
 .intro {
-	height: 574px;
+	height: 512px;
  	width: 100%;
  	background-image: url("../img/background.jpg");
- 	background-position: center;
+ 	background-position: bottom center;
   	background-repeat: no-repeat;
 
 
@@ -73,6 +73,7 @@ body  {
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
+	padding-top: 55px;
 }
 
 .advantages p {
@@ -80,6 +81,9 @@ body  {
 	line-height: 21px;
 	color: #7d7d7d;
 	font-weight: normal;
+	margin-top: 25px;
+	margin-left: 30px;
+	margin-right: 25px;
 }
 
 .causes {
@@ -87,6 +91,8 @@ body  {
 	line-height: 26px;
 	color: #7d7d7d;
 	font-weight: normal;
+	margin-top: 38px;
+	margin-bottom: 56px;
 }
 
 .advantages h3 {
@@ -94,6 +100,7 @@ body  {
 	line-height: 21px;
 	color: #000000;
 	font-weight: bold;
+	margin-top: 49px;
 }
 
 .principal h3 {
@@ -109,6 +116,8 @@ body  {
 	line-height: 36px;
 	color: #000000;
 	font-weight: bold;
+	margin-top: 58px;
+	margin-bottom: 37px;
 }
 
 .indicate p {
@@ -117,6 +126,7 @@ body  {
 	color: #b3b3b3;
 	font-weight: normal;
 	text-align: center;
+	margin-bottom: 54px; 
 }
 
 .indicate .find {
@@ -125,10 +135,10 @@ body  {
 	color: #ffffff;
 	font-weight: bold;
 	background-color: #766357;
-	width: 569px;
-	height: 87px;
-	text-align: center;
+	width: 576px;
+	height: 60px;
 	margin-bottom: 0;
+	padding-top: 35px;
 }
 
 .value-form {
@@ -144,6 +154,7 @@ body  {
 
 .value-form ul {
 	list-style: none;
+	margin-left: -40px;
 }
 
 legend {
@@ -218,6 +229,12 @@ a {
 	background-color: #766357;
 }
 
+.arrows {
+	display: flex;
+	margin-top: 25px;
+}
+
+.arrows 
 .up {
 	color: #cacaca;
 }
@@ -266,6 +283,7 @@ a {
 
 .social-button ul {
 	list-style: none;
+	display: flex;
 }
 
 .visually-hidden {
@@ -329,7 +347,9 @@ a {
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
+
 }
+
 
 input[placeholder] {
 	font-size: 14px;
@@ -338,6 +358,7 @@ input[placeholder] {
 	font-weight: bold;
 	background-color: #f2f2f2;
 	text-transform: uppercase;
+
 }
 
 input[placeholder]:hover,
@@ -360,6 +381,8 @@ input[placeholder]:active {
 	color: #ffffff;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-top: 40px;
+	margin-left: 55px;
 }
 
 .seek:hover,
@@ -446,10 +469,12 @@ input[placeholder]:active {
 
 .seriosly h3 {
 	color: #ffffff;
+	margin-top: 44px;
 }
 
 .seriosly p {
 	color: #ffffff;
+	margin-top: 25px;
 }
 
 .services {
@@ -462,6 +487,8 @@ input[placeholder]:active {
 
 .advantages .services {
 	height: 256px;
+	margin-top: 60px;
+	margin-bottom: 87px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -505,6 +532,8 @@ input[placeholder]:active {
 .reason li {
 	width: 400px;
 	align-self: center;
+	margin-right: 33px;
+	margin-left: 35px;
 }
 
 .advantages .reason {
@@ -529,26 +558,45 @@ input[placeholder]:active {
 	margin-left: -288px;
 }
 
+.login-form input[type="text"] {
+	border: 0;
+	outline: 0;
+}
+
 .hashtag {
 	width: 400px;
 	margin: 0;
 	text-align: center;
 	align-self: center;
+	margin-top: -40px;
 }
 
 .social-button {
-	width: 400px;
+	width: 1000px;
+	margin-top: 20px;
+	margin-left: 255px;
+	margin-right: 228px;
+	margin-bottom: 20px;
 }
 
 .footer-copyright {
-	width: 400px;
+	width: 700px;
+	height: 120px;
 	margin: 0;
 	text-align: center;
 	align-self: center;
+	display: flex;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.footer-copyright p {
+	margin-right: 10px;
 }
 
 .main-footer .container {
   display: flex;
+  height: 120px;
 }
 
 .form-wrapper {
@@ -619,10 +667,152 @@ input[placeholder]:active {
 }
 
 .hot {
-	width: 922px;
+	flex-grow: 1;
 	margin-left: 30px;
 }
 
 .rating {
 	width: 112px;
+	text-align: right;
+}
+
+.social-button-twitter {
+	background-color: #81b3d2;
+	width: 45px;
+	height: 48px;
+	margin-right: 7px;
+	background-image: url('../img/twitter.svg')
+	background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.social-button-facebook {
+	background-color: #81b3d2;
+	width: 45px;
+	height: 48px;
+	margin-right: 7px;
+}
+
+.social-button-youtube {
+	background-color: #81b3d2;
+}
+
+
+#coming {
+	/*margin-top: 55px;*/
+	/*margin-left: 28px;*/
+	width: 346px;
+	margin-bottom: 29px;
+}
+
+#arrival-exit {
+	width: 346px;
+	/*margin-left: 23px;*/
+	/*margin-bottom: 29px;*/
+}
+
+.pesrons-amount {
+	width: 114px;
+}
+
+.arrival {
+	/*margin-left: 38px;*/
+}
+
+.childron {
+	/*margin-left: 90px;*/
+}
+
+.arrival-date-input {
+    position: absolute;
+    top: 7px;
+    right: 4px;
+    width: 24px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url('../img/calendar-gray.svg');
+    background-repeat: no-repeat;
+    /*margin-top: 53px;*/
+    /*margin-right: 70px;*/
+}
+
+.arrival-date-input:hover {
+    background-color: transparent;
+    background-image: url('../img/calendar.svg');
+    background-repeat: no-repeat;
+}
+
+.arrival-date-input:active {
+    background-color: transparent;
+    background-image: url('../img/calendar-blue.svg');
+    background-repeat: no-repeat;
+}
+
+.arrival-person-wrapper input[type="text"] {
+    display: inline-block;
+    width: 36px;
+    height: 26px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+    /*margin-left: 143px;*/
+ /*   margin-top: -35px;*/
+}
+
+.arrival-person-wrapper {
+	border: none;
+	display: flex;
+}
+
+.push {
+    font-size: 20px;
+    font-weight: bold;
+    width: 36px;
+    height: 30px;
+    color: #a9a9a9;
+    border: none;
+    background-color: black;
+}
+
+.push:hover {
+    color: #000000;
+}
+
+.push:active {
+    color: #81b3d2;
+}
+
+.check-in {
+	position: relative;
+}
+/*.minus {
+	margin-left: 150px;
+	margin-top: -35px;
+	position: absolute;
+}
+
+.plus {
+	position: absolute;
+	margin-left: -50px;
+	margin-top: -35px;
+}
+
+.kids {
+	margin-left: 230px;
+	margin-top: -66px;
+}
+*/
+::placeholder {
+	color: #000000;
+}
+
+.hr {
+	color: #e5e5e5;
+}
+
+.persons {
+	display: flex;
 }

@@ -88,3 +88,8 @@
 .rating {
   outline: 1px solid #666;
 }
+
+.arrows {
+  outline: 1px solid #666;
+  margin-top: 25px;
+}
