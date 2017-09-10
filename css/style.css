@@ -6,19 +6,19 @@ body  {
 }
 
 @font-face {
-    font-family: "PT Sans";
-    src: url("../fonts/ptsans.woff") format("woff"),
-	url("../fonts/ptsans.woff2") format("woff2");
-    font-weight: normal;
-  	font-style: normal;
-   }
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans.woff") format("woff"),
+  url("../fonts/ptsans.woff2") format("woff2");
+  font-weight: normal;
+	font-style: normal;
+ }
 
 @font-face {
-    font-family: "PT Sans";
-    src: url("../fonts/ptsansbold.woff") format("woff"),
-    url("../fonts/ptsansbold.woff2") format("woff2");
-    font-weight: bold;
-  	font-style: normal;
+  font-family: "PT Sans";
+  src: url("../fonts/ptsansbold.woff") format("woff"),
+  url("../fonts/ptsansbold.woff2") format("woff2");
+  font-weight: bold;
+	font-style: normal;
 }
 
 .intro {
@@ -26,9 +26,7 @@ body  {
  	width: 100%;
  	background-image: url("../img/background.jpg");
  	background-position: bottom center;
-  	background-repeat: no-repeat;
-
-
+  background-repeat: no-repeat;
 }
 
 .value-form {
@@ -36,7 +34,7 @@ body  {
  	width: 100%;
  	background-image: url("../img/hotelsbg.jpg");
  	background-position: top center;
-  	background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
 .site-navigation {
@@ -57,7 +55,7 @@ body  {
 
 .site-navigation a:hover,
 .site-navigation a:focus {
-  	color: #81b3d2;
+	color: #81b3d2;
 }
 
 .site-navigation a:active {
@@ -66,6 +64,7 @@ body  {
 
 .advantages ul {
 	list-style: none;
+  padding: 0;
 }
 
 .advantages h1 {
@@ -73,7 +72,7 @@ body  {
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
-	padding-top: 55px;
+	padding-top: 41px;
 }
 
 .advantages p {
@@ -81,8 +80,8 @@ body  {
 	line-height: 21px;
 	color: #7d7d7d;
 	font-weight: normal;
-	margin-top: 25px;
-	margin-left: 30px;
+	margin-top: 28px;
+	margin-left: 24px;
 	margin-right: 25px;
 }
 
@@ -100,7 +99,7 @@ body  {
 	line-height: 21px;
 	color: #000000;
 	font-weight: bold;
-	margin-top: 49px;
+	margin-top: 26px;
 }
 
 .principal h3 {
@@ -111,35 +110,13 @@ body  {
 	color: #7d7d7d;
 }
 
-.indicate h1 {
-	font-size: 30px;
-	line-height: 36px;
-	color: #000000;
-	font-weight: bold;
-	margin-top: 58px;
-	margin-bottom: 37px;
-}
-
 .indicate p {
 	font-size: 14px;
 	line-height: 24px;
 	color: #b3b3b3;
 	font-weight: normal;
 	text-align: center;
-	margin-bottom: 54px;
-}
-
-.indicate .find {
-	font-size: 21px;
-	line-height: 26px;
-	color: #ffffff;
-	font-weight: bold;
-	background-color: #766357;
-	width: 576px;
-	height: 60px;
-	margin-bottom: 0;
-	padding-top: 35px;
-  text-align: center;
+	margin-bottom: 17px;
 }
 
 .value-form {
@@ -151,7 +128,7 @@ body  {
 
 .value-form fieldset {
 	border: none;
-  margin-top: 20px;
+  margin-top: 26px;
   margin-left: 61px;
 }
 
@@ -188,7 +165,7 @@ a {
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
-  margin-top: 20px;
+  margin-top: 13px;
 }
 
 .selections p {
@@ -212,7 +189,7 @@ a {
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
-  margin-top: 28px;
+  margin-top: 31px;
 }
 
 .sort p {
@@ -258,7 +235,7 @@ a {
 
 .sort li:hover,
 .sort li:focus {
-  	color: #81b3d2;
+	color: #81b3d2;
 }
 
 .sort li:active {
@@ -267,7 +244,7 @@ a {
 
 .pick h1:hover,
 .pick h1:focus {
-  	color: #81b3d2;
+	color: #81b3d2;
 }
 
 .pick h1:active {
@@ -276,7 +253,7 @@ a {
 
 .more:hover,
 .more:focus {
-  	background-color: #669ec0;
+	background-color: #669ec0;
 }
 
 .more:active {
@@ -286,7 +263,7 @@ a {
 
 .reservation:hover,
 .reservation:focus {
-  	background-color: #604e43;
+	background-color: #604e43;
 }
 
 .reservation:active {
@@ -296,7 +273,7 @@ a {
 
 .find:hover,
 .find:focus {
-  	background-color: #604e43;
+	background-color: #604e43;
 }
 
 .find:active {
@@ -312,7 +289,6 @@ a {
 
 }
 
-
 input[placeholder] {
 	font-size: 14px;
 	line-height: 26px;
@@ -320,12 +296,11 @@ input[placeholder] {
 	font-weight: bold;
 	background-color: #f2f2f2;
 	text-transform: uppercase;
-
 }
 
 input[placeholder]:hover,
 input[placeholder]:focus {
-  	background-color: #ebebeb;
+	background-color: #ebebeb;
 }
 
 input[placeholder]:active {
@@ -343,13 +318,13 @@ input[placeholder]:active {
 	color: #ffffff;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-top: 40px;
+	margin-top: 66px;
 	margin-left: 55px;
 }
 
 .seek:hover,
 .seek:focus {
-  	background-color: #669ec0;
+	background-color: #669ec0;
 }
 
 .seek:active {
@@ -361,16 +336,15 @@ input[placeholder]:active {
 	display: block;
 }
 
-/* Сеточные стили */
 .main-header {
-  	min-width: 1200px;
-  	min-height: 56px;
+	min-width: 1200px;
+	min-height: 56px;
 }
 
 .main-navigation {
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .site-navigation {
@@ -387,15 +361,34 @@ input[placeholder]:active {
 }
 
 .container {
-  	width: 1200px;
-  	margin: 0 auto;
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, .1);
-   /* box-shadow: 5px 0 15px 5px rgba(0, 0, 0, .1),
-                -5px 0 15px 5px rgba(0, 0, 0, .1);*/
+	width: 1200px;
+	margin: 0 auto;
+  position: relative;
+}
+
+.container::before {
+  top: 0;
+  box-shadow: -15px 0 15px -15px rgba(0, 0, 0, .1) inset;
+  content: " ";
+  height: 100%;
+  left: -15px;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.container::after {
+  top: 0;
+  box-shadow: 15px 0 15px -15px rgba(0, 0, 0, .1) inset;
+  content: " ";
+  height: 100%;
+  position: absolute;
+  right: -15px;
+  width: 15px;
 }
 
 .main-navigation-wrapper .container {
-  	display: flex;
+	display: flex;
 }
 
 .container li {
@@ -406,7 +399,6 @@ input[placeholder]:active {
 .list {
 	align-self: center;
 }
-/* Конец шапки */
 
 /* Intro */
 .intro {
@@ -415,7 +407,6 @@ input[placeholder]:active {
 
 .advantages {
 	text-align: center;
-	margin-top: -17px;
 }
 
 .principal {
@@ -434,26 +425,27 @@ input[placeholder]:active {
 
 .seriosly h3 {
 	color: #ffffff;
-	margin-top: 44px;
+	margin-top: 48px;
 }
 
 .seriosly p {
 	color: #ffffff;
-	margin-top: 25px;
+	margin-top: 22px;
+  margin-left: 22px;
 }
 
 .services {
 	margin-top: 0;
 }
+
 .services li {
-	width: 400px;
-	align-self: center;
+	width: 33.33%;
 }
 
 .advantages .services {
 	height: 256px;
 	margin-top: 60px;
-	margin-bottom: 87px;
+	margin-bottom: 30px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -475,10 +467,12 @@ input[placeholder]:active {
 
 .diablo h3 {
 	color: #ffffff;
+  margin-top: 45px;
 }
 
 .diablo p {
 	color: #ffffff;
+  margin-top: 23px;
 }
 
 .privilege li {
@@ -499,6 +493,7 @@ input[placeholder]:active {
 	align-self: center;
 	margin-right: 33px;
 	margin-left: 35px;
+  margin-top: 7px;
 }
 
 .advantages .reason {
@@ -507,9 +502,11 @@ input[placeholder]:active {
 	justify-content: space-around;
 }
 
-
 .arrows {
   display: flex;
+  justify-content: space-between;
+  width: 36px;
+  margin-top: 36px;
 }
 
 .arrow path {
@@ -525,30 +522,22 @@ input[placeholder]:active {
   fill: #81b3d2;
 }
 
-
-
-
-
-
-
-
-
-
 .indicate {
 	display: flex;
 	flex-direction: column;
-  	align-items: center;
-  	margin-top: -15px;
+	align-items: center;
+	margin-top: -15px;
 }
 
 .login-form {
 	position: absolute;
 	background-color: #ffffff;
-	width: 576px;
+	width: 568px;
 	height: 396px;
 	left: 50%;
 	margin-left: -288px;
   box-shadow: 0 6px 7px 5px rgba(0, 1, 1, .2);
+  margin-left: -284px;
 }
 
 .login-form input[type="text"] {
@@ -563,7 +552,8 @@ input[placeholder]:active {
 	margin: 0;
 	text-align: center;
 	align-self: center;
-	margin-top: -40px;
+	margin-top: -8px;
+  margin-left: 127px;
 }
 
 .social-buttons {
@@ -581,7 +571,8 @@ input[placeholder]:active {
 	align-self: center;
 	display: flex;
 	height: 60px;
-	margin-right: 20px;
+	margin-right: 50px;
+  margin-top: 7px;
 }
 
 .footer-copyright p {
@@ -597,10 +588,6 @@ input[placeholder]:active {
 	display: flex;
 }
 
-/* Главная */
-
-/* Иннер */
-
 .struct {
   font-size: 14px;
   line-height: 21px;
@@ -609,7 +596,6 @@ input[placeholder]:active {
   margin-top: 22px;
 }
 
-
 .value-form {
 	display: flex;
 }
@@ -617,16 +603,16 @@ input[placeholder]:active {
 /* фильтр */
 
 .filter-range {
-  width: 330px;
+  width: 319px;
   margin: 20px auto;
   color: #ffffff;
   text-transform: uppercase;
-  margin-right: 77px;
+  margin-right: 72px;
+  margin-top: 27px;
 }
 
 .filter-range-title {
   margin-bottom: 9px;
-
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -634,11 +620,9 @@ input[placeholder]:active {
 
 .price-controls {
   position: relative;
-
   height: 36px;
   margin-bottom: 20px;
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -648,21 +632,17 @@ input[placeholder]:active {
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
 
 .price-controls label {
   display: inline-block;
-
   font-size: 14px;
   line-height: 38px;
   vertical-align: top;
-
   cursor: pointer;
 }
 
@@ -675,10 +655,8 @@ input[placeholder]:active {
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
   outline: 0;
@@ -686,30 +664,25 @@ input[placeholder]:active {
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -720,7 +693,6 @@ input[placeholder]:active {
 .range-toggle:hover {
   background: #1c4f80;
 }
-
 
 .range-toggle-min {
   left: 0;
@@ -745,6 +717,8 @@ input[placeholder]:active {
   border-radius: 2px;
   cursor: pointer;
   outline: 0;
+  width: 138px;
+  margin-right: 95px;
 }
 
 .btn-transparent:hover {
@@ -801,17 +775,18 @@ input[placeholder]:active {
 }
 
 .crosshead p {
-	width: 101px;
-	margin-top: 34px;
+	margin-top: 37px;
 }
 
 .sorting {
-	width: 781px;
-  margin-top: 32px;
+  padding: 0;
+  width: 781px;
+  margin-top: 34px;
+  margin-left: 4px;
 }
 
 .sorting li {
-	display: inline;
+  display: inline;
   margin-left: 30px;
 }
 
@@ -820,17 +795,15 @@ input[placeholder]:active {
 	margin: 0 auto;
 }
 
-/* Гостиницы */
-
 .pick {
 	display: flex;
   width: 1056px;
   margin: 0 auto;
+  margin-bottom: 5px;
 }
 
 .pick img {
-	margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 26px;
 }
 
 .hot {
@@ -846,18 +819,20 @@ input[placeholder]:active {
   margin-right: 7px;
   background-position: center center;
   background-repeat: no-repeat;
+  margin-top: 13px;
+  margin-left: -2px;
 }
 
 .twitter {
-	background-image: url('../img/twitter.svg');
+	background-image: url("../img/twitter.svg");
 }
 
 .facebook {
-  background-image: url('../img/fb-icon.svg');
+  background-image: url("../img/fb-icon.svg");
 }
 
 .youtube {
-  background-image: url('../img/youtube.svg');
+  background-image: url("../img/youtube.svg");
 }
 
 .social-button:hover {
@@ -865,22 +840,22 @@ input[placeholder]:active {
 }
 
 .youtube:active {
-  background-image: url('../img/youtube-gray.svg');
+  background-image: url("../img/youtube-gray.svg");
   background-color: #5496bd;
 }
 
 .facebook:active {
-  background-image: url('../img/fb-icon-gray.svg');
+  background-image: url("../img/fb-icon-gray.svg");
   background-color: #5496bd;
 }
 
 .twitter:active {
-  background-image: url('../img/twitter-gray.svg');
+  background-image: url("../img/twitter-gray.svg");
   background-color: #5496bd;
 }
 
 .coming {
-	width: 346px;
+	width: 334px;
 }
 
 .arrival {
@@ -888,15 +863,15 @@ input[placeholder]:active {
 }
 
 .arrival-h {
-  margin-left: 57px;
+  margin-left: 54px;
 }
 
 .childron-h {
-  margin-left: 50px;
+  margin-left: 57px;
 }
 
 .arrival-exit {
-	width: 346px;
+	width: 334px;
   margin-left: 57px;
 }
 
@@ -910,29 +885,29 @@ input[placeholder]:active {
 }
 
 .arrival-date-input {
-    position: absolute;
-    top: 63px;
-    width: 24px;
-    height: 25px;
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-    background-image: url('../img/calendar-gray.svg');
-    background-repeat: no-repeat;
-    margin-left: -30px;
-    margin-top: 12px;
+  position: absolute;
+  top: 63px;
+  width: 24px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url("../img/calendar-gray.svg");
+  background-repeat: no-repeat;
+  margin-left: -30px;
+  margin-top: 12px;
 }
 
 .arrival-date-input:hover {
-    background-color: transparent;
-    background-image: url('../img/calendar.svg');
-    background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url("../img/calendar.svg");
+  background-repeat: no-repeat;
 }
 
 .arrival-date-input:active {
-    background-color: transparent;
-    background-image: url('../img/calendar-blue.svg');
-    background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url("../img/calendar-blue.svg");
+  background-repeat: no-repeat;
 }
 
 .arrival-date-input.second {
@@ -953,36 +928,37 @@ input[placeholder]:active {
 }
 
 .arrival-person-wrapper input[type="text"] {
-    width: 36px;
-    height: 30px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    margin-top: -25px;
+  width: 36px;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: -25px;
 }
 
 .arrival-person-wrapper {
 	border: none;
 	display: flex;
   margin-top: 25px;
+  margin-left: -6px;
 }
 
 .push {
-    font-size: 20px;
-    font-weight: bold;
-    width: 36px;
-    height: 30px;
-    color: #a9a9a9;
-    border: none;
-    background-color: #f2f2f2;
+  font-size: 20px;
+  font-weight: bold;
+  width: 36px;
+  height: 36px;
+  color: #a9a9a9;
+  border: none;
+  background-color: #f2f2f2;
 }
 
 .push:hover {
-    color: #000000;
+  color: #000000;
 }
 
 .push:active {
-    color: #81b3d2;
+  color: #81b3d2;
 }
 
 .check {
@@ -991,7 +967,7 @@ input[placeholder]:active {
 
 .check-in {
 	position: relative;
-  margin-top: 55px;
+  margin-top: 53px;
 }
 
 ::placeholder {
@@ -1004,7 +980,7 @@ input[placeholder]:active {
 
 .persons {
 	display: flex;
-  margin-top: 25px;
+  margin-top: 33px;
 }
 
 .minus {
@@ -1017,7 +993,7 @@ input[placeholder]:active {
 }
 
 .hach {
-  margin-left: 100px;
+  margin-left: 7px;
 }
 
 fieldset.house {
@@ -1045,111 +1021,198 @@ p.stock {
 /* Звезды */
 
 .hotel-rating {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  align-items: flex-end;
 }
 
 .stars {
-    font-size: 0;
-    margin-bottom: 35px;
+  font-size: 0;
+  margin-bottom: 35px;
 }
 
 .star {
-    display: inline-block;
-    width: 20px;
-    height: 17px;
-    vertical-align: baseline;
-    padding-right: 1px;
-    background-image: url('../img/star.svg');
-    background-repeat: no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  vertical-align: baseline;
+  padding-right: 1px;
+  background-image: url("../img/star.svg");
+  background-repeat: no-repeat;
+  margin-top: 21px;
 }
 
 .rating-text {
-    margin: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 14px;
-    padding-right: 14px;
-    font-family: inherit;
-    font-size: 14px;
-    line-height: 21px;
-    background-color: #f2f2f2;
-    color: #666666;
-    text-align: center;
-    text-transform: uppercase;
-    border: none;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #f2f2f2;
+  color: #666666;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 10px;
 }
 
-
-/*Текст отелей */
-
 .hotltext {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
-    margin-top: 2px;
-    margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 12px;
 }
 
 .htl,
 .prs {
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
 }
 
 .htl {
-    min-width: 110px;
-    margin-right: 5px;
+  min-width: 110px;
+  margin-right: 5px;
 }
 
 .prs {
-    min-width: 142px;
+  min-width: 142px;
 }
 
-
-/* Кнопки Отелей */
-
 .more {
-    display: inline-block;
-    vertical-align: top;
-    width: 109px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-align: center;
-    background-color: #81b3d2;
+  display: inline-block;
+  vertical-align: top;
+  width: 109px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  background-color: #81b3d2;
 }
 
 .reservation {
-    display: inline-block;
-    vertical-align: top;
-    width: 142px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-align: center;
-    background-color: #766357;
+  display: inline-block;
+  vertical-align: top;
+  width: 142px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  background-color: #766357;
 }
 
-/* Карта */
-
 .map {
-    background-color: #ffffff;
-    position: relative;
-    height: 473px;
+  background-color: #ffffff;
+  position: relative;
+  height: 473px;
 }
 
 .map-img {
-    width: 1200px;
-    height: 473px;
+  width: 1200px;
+  height: 473px;
 }
 
 .map-frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 0;
 }
 
+.selections hr {
+  margin: 0;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -69px;
+  top: -56px;
+}
+
+.inner-page .logo {
+  top: 0;
+}
+
+.reason h3 {
+  margin: 0;
+}
+
+.indicate-txt {
+  margin: 0;
+  margin-top: -14px;
+  margin-left: -2px;
+}
+
+.indicate-title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 49px;
+  margin-bottom: 37px;
+}
+
+.find {
+  font-size: 21px;
+  line-height: 85px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #766357;
+  width: 568px;
+  height: 86px;
+  text-align: center;
+  margin-top: 31px;
+}
+
+.reasp {
+  margin-top: 10px;
+}
+
+.amara {
+  margin-top: 10px;
+}
+
+.amarabtn {
+  margin-top: -9px;
+}
+
+.amarajpg {
+  margin-top: 18px;
+}
+
+.desjpg {
+  margin-top: 28px;
+}
+
+.pick .desert {
+  margin-top: 25px;
+}
+
+.desbtn {
+  margin-top: -9px;
+}
+
+.villasjpg {
+  margin-top: 29px;
+}
+
+.villbtn {
+  margin-top: -9px;
+}
+
+.pick .villas {
+  margin-top: 25px;
+}
+
+input.arrival-exit {
+  padding-left: 10px;
+}
+
+input.coming {
+  padding-left: 10px;
+}
