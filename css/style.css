@@ -82,9 +82,9 @@ body  {
 	line-height: 21px;
 	color: #7d7d7d;
 	font-weight: normal;
-	margin-top: 27px;
+	margin-top: 29px;
 	margin-left: 54px;
-	margin-right: 25px;
+	margin-right: 58px;
 }
 
 .causes {
@@ -300,14 +300,17 @@ input[placeholder] {
 	text-transform: uppercase;
 }
 
-input[placeholder]:hover,
-input[placeholder]:focus {
+input::-webkit-input-placeholder { color: #000000; }
+input::-moz-placeholder { color: #000000; opacity: 1; }
+input:-moz-placeholder  { color: #000000; opacity: 1; }
+input:-ms-input-placeholder { color: #000000; }
+
+input[placeholder]:hover {
 	background-color: #ebebeb;
 }
 
-input[placeholder]:active {
-	background-color: #ffffff;
-	color: #928a85;
+input[placeholder]:focus {
+  background-color: #ffffff;
 }
 
 .seek {
@@ -320,7 +323,7 @@ input[placeholder]:active {
 	color: #ffffff;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-top: 54px;
+	margin-top: 51px;
 	margin-left: 54px;
 }
 
@@ -370,10 +373,10 @@ input[placeholder]:active {
 
 .container::before {
   top: 0;
-  box-shadow: -15px 0 15px -15px rgba(0, 0, 0, .1) inset;
+  box-shadow: -5px 0 15px 0 rgba(0, 0, 0, .1);
   content: " ";
   height: 100%;
-  left: -15px;
+  left: 0;
   position: absolute;
   top: 0;
   width: 15px;
@@ -381,11 +384,11 @@ input[placeholder]:active {
 
 .container::after {
   top: 0;
-  box-shadow: 15px 0 15px -15px rgba(0, 0, 0, .1) inset;
+  box-shadow: 5px 0 15px 0 rgba(0, 0, 0, .1);
   content: " ";
   height: 100%;
   position: absolute;
-  right: -15px;
+  right: 0;
   width: 15px;
 }
 
@@ -427,16 +430,16 @@ input[placeholder]:active {
 
 .seriosly h3 {
 	color: #ffffff;
-	margin-top: 48px;
+	margin-top: 46px;
   width: 138px;
   margin-left: 133px;
 }
 
 .seriosly p {
 	color: #ffffff;
-	margin-top: 22px;
-  margin-left: 51px;
-  width: 288px;
+	margin-top: 23px;
+  margin-left: 48px;
+  width: 302px;
 }
 
 .services {
@@ -445,6 +448,7 @@ input[placeholder]:active {
 
 .services p {
   width: 290px;
+  margin-top: 24px;
 }
 .services li {
 	width: 33.33%;
@@ -481,7 +485,7 @@ input[placeholder]:active {
 .diablo p {
 	color: #ffffff;
   margin-top: 23px;
-  margin-left: 42px;
+  margin-left: 46px;
   width: 308px;
 }
 
@@ -507,7 +511,7 @@ input[placeholder]:active {
 .reason li {
 	width: 400px;
 	align-self: center;
-	margin-right: 33px;
+	margin-right: -3px;
   margin-top: 7px;
 }
 
@@ -521,7 +525,7 @@ input[placeholder]:active {
   display: flex;
   justify-content: space-between;
   width: 36px;
-  margin-top: 36px;
+  margin-top: 34px;
 }
 
 .arrow path {
@@ -567,31 +571,31 @@ input[placeholder]:active {
 	margin: 0;
 	text-align: center;
 	align-self: center;
-	margin-top: -8px;
-  margin-left: 91px;
+  margin-left: 3px;
+  margin-top: -7px;
 }
 
 .social-buttons {
-	width: 1056px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	width: 400px;
+	margin-top: 25px;
   text-align: center;
+  margin-left: 3px;
+  margin-top: 23px;
 }
 
 .footer-copyright {
-	width: 700px;
-	height: 120px;
 	margin: 0;
 	text-align: center;
 	align-self: center;
 	display: flex;
-	height: 60px;
-	margin-right: -85px;
-  margin-top: 7px;
+  margin-left: 94px;
+  margin-top: 4px;
 }
 
 .footer-copyright p {
 	margin-right: 10px;
+  margin-top: 6px;
+  margin-left: 3px;
 }
 
 .main-footer .container {
@@ -608,7 +612,7 @@ input[placeholder]:active {
   line-height: 21px;
   color: #ffffff;
   font-weight: normal;
-  margin-top: 22px;
+  margin-top: 21px;
 }
 
 .value-form {
@@ -623,11 +627,11 @@ input[placeholder]:active {
   color: #ffffff;
   text-transform: uppercase;
   margin-right: 72px;
-  margin-top: 27px;
+  margin-top: 26px;
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -671,7 +675,6 @@ input[placeholder]:active {
   width: 50px;
   margin: 0;
   color: inherit;
-  font: inherit;
   background: none;
   border: none;
   outline: 0;
@@ -790,7 +793,7 @@ input[placeholder]:active {
 }
 
 .crosshead p {
-	margin-top: 37px;
+	margin-top: 36px;
 }
 
 .sorting {
@@ -874,7 +877,7 @@ input[placeholder]:active {
 }
 
 .arrival {
-  margin-left: 60px;
+  margin-left: 57px;
 }
 
 .arrival-h {
@@ -882,12 +885,12 @@ input[placeholder]:active {
 }
 
 .childron-h {
-  margin-left: 57px;
+  margin-left: 53px;
 }
 
 .arrival-exit {
 	width: 334px;
-  margin-left: 57px;
+  margin-left: 60px;
 }
 
 .pesrons-amount {
@@ -932,6 +935,7 @@ input[placeholder]:active {
 .footer-logo {
   width: 119px;
   height: 42px;
+  margin-left: -4px;
 }
 
 .footer-logo:hover path {
@@ -943,8 +947,8 @@ input[placeholder]:active {
 }
 
 .arrival-person-wrapper input[type="text"] {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -954,15 +958,19 @@ input[placeholder]:active {
 .arrival-person-wrapper {
 	border: none;
 	display: flex;
-  margin-top: 25px;
-  margin-left: -6px;
+  margin-top: 19px;
+  margin-left: -1px;
+}
+
+.secondy {
+  margin-left: -15px;
 }
 
 .push {
   font-size: 20px;
   font-weight: bold;
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   color: #a9a9a9;
   border: none;
   background-color: #f2f2f2;
@@ -978,6 +986,7 @@ input[placeholder]:active {
 
 .check {
   margin-top: 27px;
+  margin-left: -6px;
 }
 
 .check-in {
@@ -995,7 +1004,7 @@ input[placeholder]:active {
 
 .persons {
 	display: flex;
-  margin-top: 33px;
+  margin-top: 36px;
 }
 
 .minus {
@@ -1008,7 +1017,7 @@ input[placeholder]:active {
 }
 
 .hach {
-  margin-left: 7px;
+  margin-left: -3px;
 }
 
 fieldset.house {
@@ -1040,22 +1049,31 @@ p.stock {
   flex-direction: column;
   margin-left: auto;
   align-items: flex-end;
+  margin-right: -1px;
 }
 
 .stars {
   font-size: 0;
-  margin-bottom: 35px;
+  margin-bottom: 42px;
 }
 
 .star {
   display: inline-block;
-  width: 20px;
+  width: 21px;
   height: 17px;
   vertical-align: baseline;
   padding-right: 1px;
   background-image: url("../img/star.svg");
   background-repeat: no-repeat;
-  margin-top: 21px;
+  margin-top: 19px;
+}
+
+.super {
+  margin-top: 28px;
+}
+
+.two {
+  margin-top: 27px;
 }
 
 .rating-text {
@@ -1072,7 +1090,7 @@ p.stock {
   text-align: center;
   text-transform: uppercase;
   border: none;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 .hotltext {
@@ -1140,6 +1158,7 @@ p.stock {
 
 .selections hr {
   margin: 0;
+  border-color: #e5e5e5;
 }
 
 .logo {
@@ -1157,6 +1176,7 @@ p.stock {
   margin: 0;
   width: 127px;
   margin-left: 136px;
+  margin-top: -8px;
 }
 
 .indicate-txt {
@@ -1195,7 +1215,8 @@ p.stock {
 }
 
 .amarabtn {
-  margin-top: -9px;
+  margin-top: -6px;
+  margin-left: 1px;
 }
 
 .amarajpg {
@@ -1207,23 +1228,25 @@ p.stock {
 }
 
 .pick .desert {
-  margin-top: 25px;
+  margin-top: 24px;
 }
 
 .desbtn {
-  margin-top: -9px;
+  margin-top: -8px;
+  margin-left: 1px;
 }
 
 .villasjpg {
-  margin-top: 29px;
+  margin-top: 27px;
 }
 
 .villbtn {
-  margin-top: -9px;
+  margin-top: -6px;
+  margin-left: 1px;
 }
 
 .pick .villas {
-  margin-top: 25px;
+  margin-top: 22px;
 }
 
 input.arrival-exit {
@@ -1233,3 +1256,4 @@ input.arrival-exit {
 input.coming {
   padding-left: 10px;
 }
+
